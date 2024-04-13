@@ -15,7 +15,7 @@ I think it still leaves much to be desired in its current state and does not rea
  
 ## Tell it what to put inside of paint(ctx, size, properties)
 
-> myvar.paint = <pre>`ctx.fillStyle = 'red'; ctx.fill(); `</pre>
+> myvar.paint = &#96;ctx.fillStyle = 'red'; ctx.fill();&#96;
  
  ## adds it to the document.
  
