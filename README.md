@@ -7,6 +7,13 @@ Why?  Well, because I felt like making it.
 
 I think it still leaves much to be desired in its current state and does not really have any high-level graphics APIs, so its not really useful to anyone except for people who know how to use the Paint API already and are sick of creating all that boilerplate code.
 
+API:
+ var myvar = new QPainter(painterUuid, selector, dimensions, properties)
+ sets up the painter as myvar;
+ 
+ myvar.renderQPainter();
+ adds it to the document.
+
 Example Usage:
 
 <pre>
